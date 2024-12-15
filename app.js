@@ -8,10 +8,10 @@ ajaxRequest//Document is the DOM can be accessed in the console with document.wi
 
 // Event handling, user interaction is what starts the code execution.
 
-var taskInput=document.getElementById("new-task");//Add a new task.
+var taskInput=document.getElementById("form__new");//Add a new task.
 var addButton=document.querySelector(".form__btn_add");//first button
-var incompleteTaskHolder=document.getElementById("incompleteTasks");//ul of #incompleteTasks
-var completedTasksHolder=document.getElementById("completed-tasks");//completed-tasks
+var incompleteTaskHolder=document.getElementById("incomplete__tasks");//ul of #incompleteTasks
+var completedTasksHolder=document.getElementById("completed__tasks");//completed-tasks
 
 
 //New task list item
